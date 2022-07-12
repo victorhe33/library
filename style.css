@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+.addBook {
+  width: 100px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.bookContainer {
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px lightgray;
+  width: fit-content;
+}
